@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Calculation from "./Calculation";
+import styles from "./App.module.css";
+import Memory from "./Memory";
+import { useState } from "react";
 
 function App() {
+  const [expList, setExpList] = useState([]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.container}>
+      <Calculation setExpList={setExpList}></Calculation>
+      <Memory list={expList}></Memory>
     </div>
   );
 }

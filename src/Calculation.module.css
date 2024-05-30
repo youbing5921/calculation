@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.calculation_body {
+  background-color: #d5d4ff;
+  width: 320px;
+  height: 380px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: #ffc2c2;
+  border: none;
+  width: calc(100% - 20px);
+  height: 80px;
+  padding: 10px;
+  font-size: 40px;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  padding-top: 10px;
+  width: 100%;
+  gap: 10px;
+}

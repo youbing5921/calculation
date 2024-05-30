@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap");
+
+.button1 {
+  background-color: white;
+  border-color: white;
+  font-size: 1.5rem;
+  width: 70px;
+  height: 40px;
+  border: none;
+  font-family: "Poetsen One", sans-serif;
+}
+
+.button2 {
+  background-color: #adabff;
+  border-color: #adabff;
+  font-size: 1.5rem;
+  width: 70px;
+  height: 40px;
+  border: none;
+  font-family: "Poetsen One", sans-serif;
+}

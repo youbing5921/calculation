@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+.container {
+  width: 320px;
+  height: 400px;
+  background-color: #ff9c9c;
+}
+
+li {
+  font-size: 20px;
+  list-style-type: square;
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
